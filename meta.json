@@ -1,0 +1,17 @@
+{
+  "model_version": "v1",
+  "gensim_version": "4.3.3",
+  "num_hotels": 132,
+  "num_features": 857,
+  "index_type": "MatrixSimilarity",
+  "build_params": {
+    "lower": true,
+    "min_token_length": 2,
+    "remove_duplicates": true,
+    "filter_no_below": 2,
+    "filter_no_above": 0.5,
+    "filter_keep_n": null,
+    "use_pyvi": true
+  },
+  "text_strategy": "primary_col=Content"
+}
